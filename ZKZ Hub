@@ -1,0 +1,93 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "ZKZ Hub", HidePremium = true, SaveConfig = true, IntroText = "ZKZ Hub"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Main Stuff"
+})
+Tab:AddButton({
+	Name = "Fly [X]",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Fly')))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Aimlock",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "AimLock Stuff"
+})
+Tab:AddButton({
+	Name = "Red Dot",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Red%20Dot", true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "GodMode",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "GodMode Stuff"
+})
+Tab:AddButton({
+	Name = "GodMode All",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodMode Guns",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode%20Guns')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodBlock",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodBlock')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodMode Melees",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode%20Melees')))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Other Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Script Hubs"
+})
+Tab:AddButton({
+	Name = "SwagMode Cracked",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/selqt1/SwagModeLL/main/SwagMode%20Source%20Leaked%20Ez", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "KittenAssist Cracked",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/Kitten-Assist-/main/KittenAssist%20Leaked')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Faded",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+  	end    
+})
+
+
+
+
