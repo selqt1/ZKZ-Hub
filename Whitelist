@@ -1,6 +1,5 @@
-ModIDS = {
-    [3481119178] = true,
-    [1376406201] = true,
+AllowedIDS = {
+    [3391927305] = true,
 }
 
 return ModIDS
