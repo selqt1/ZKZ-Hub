@@ -1,0 +1,6 @@
+AdminIDS = {
+    [3391927305] = true,
+    [1376406201] = true,
+}
+
+return AdminIDSIDS
