@@ -29,6 +29,18 @@ Tab:AddButton({
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Red%20Dot", true))()
   	end    
 })
+Tab:AddButton({
+	Name = "Black Dot",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Black%20Dot')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Silent Aim",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Best%20Silent%20Aim1')))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "GodMode",
 	Icon = "rbxassetid://4483345998",
