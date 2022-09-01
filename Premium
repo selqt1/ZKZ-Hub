@@ -1,0 +1,7 @@
+PremiumIDS = {
+    [3391927305] = true,
+    [842669064] = true,
+    [3481119178] = true,
+}
+
+return PremiumIDS
