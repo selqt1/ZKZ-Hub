@@ -1,0 +1,78 @@
+-- This Is Open Source Your Not Cool Leaking It B)
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, IntroText = "Welcome To ZKZ Hub Premium User!"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false 
+})
+local Section = Tab:AddSection({
+	Name = "Main Stuff"
+})
+Tab:AddButton({
+	Name = "Fly [Z]",
+	Callback = function()
+	    loadstring(game:HttpGet(("https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Fly"),true))()
+	end   
+})
+local Tab = Window:MakeTab({
+	Name = "AimLock",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "AimLock"
+})
+Tab:AddButton({
+	Name = "Black Dot",
+	Callback = function()
+	    loadstring(game:HttpGet(("https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Black%20Dot"),true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Silent Aim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Silent Aim"
+})
+Tab:AddButton({
+	Name = "Silent Aim",
+	Callback = function()
+	    loadstring(game:HttpGet(("https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/Silent%20Aim"),true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "GodMode",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "GodMode Stuff"
+})
+Tab:AddButton({
+	Name = "GodMode All",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodMode Guns",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode%20Guns')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodBlock",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodBlock')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GodMode Melees",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/selqt1/ZKZ-Hub/main/GodMode%20Melees')))()
+  	end    
+})
