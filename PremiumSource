@@ -1,7 +1,7 @@
 -- This Is Open Source Your Not Cool Leaking It B)
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, IntroText = "Welcome To ZKZ Hub Premium User!"})
+local Window = OrionLib:MakeWindow({Name = "ZKZ Hub", HidePremium = false, SaveConfig = true, IntroText = "Welcome To ZKZ Hub Premium User!"})
 local Tab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
